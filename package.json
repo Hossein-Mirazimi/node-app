@@ -1,0 +1,23 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hossein-Mirazimi/node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hossein-Mirazimi/node-app/issues"
+  },
+  "homepage": "https://github.com/Hossein-Mirazimi/node-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
