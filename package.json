@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Hossein-Mirazimi/node-app#readme",
   "dependencies": {
+    "config": "^3.3.6",
     "express": "^4.17.1"
   }
 }
