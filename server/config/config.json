@@ -1,0 +1,12 @@
+{
+  "development": {
+    "PORT": 3000,
+    "MONGO_URI": "z3f9a335d-mongodb.qovery.io:27017/PA_DB",
+    "JWT_SECRET": "1831"
+  },
+  "test": {
+    "PORT": 3000,
+    "MONGO_URI": "z3f9a335d-mongodb.qovery.io:27017/PA_DB_TEST",
+    "JWT_SECRET": "1831"
+  }
+}

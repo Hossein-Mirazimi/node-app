@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "export NODE_ENV=test || set NODE_ENV=test && nodemon server/app.js",
     "start": "node server/app.js"
   },
   "repository": {
@@ -18,6 +19,17 @@
   },
   "homepage": "https://github.com/Hossein-Mirazimi/node-app#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "persian-date": "^1.1.0",
+    "validator": "^13.6.0",
+    "winston": "^3.3.3"
   }
 }
